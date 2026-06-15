@@ -1,0 +1,18 @@
+diff --git a/scripts/apple/ffmpeg.sh b/scripts/apple/ffmpeg.sh
+--- a/scripts/apple/ffmpeg.sh
++++ b/scripts/apple/ffmpeg.sh
+@@ -413,6 +413,14 @@
+   CONFIGURE_POSTFIX+=" --enable-gpl"
+ fi
+ 
++# ffmpeg-kit-spm: gnutls/openssl mutex — FFmpeg configure forbids both --enable-gnutls and
++# --enable-openssl. Full builds enable OpenSSL for libsrt and GnuTLS for HTTPS; keep GnuTLS
++# for FFmpeg TLS and pass --disable-openssl (libsrt still links OpenSSL via pkg-config).
++if [[ ${CONFIGURE_POSTFIX} == *"--enable-gnutls"* ]] && [[ ${CONFIGURE_POSTFIX} == *"--enable-openssl"* ]]; then
++  CONFIGURE_POSTFIX="${CONFIGURE_POSTFIX// --enable-openssl/}"
++  CONFIGURE_POSTFIX+=" --disable-openssl"
++fi
++
+ # ALWAYS BUILD SHARED LIBRARIES
+ BUILD_LIBRARY_OPTIONS="--enable-shared --disable-static --install-name-dir=@rpath"
+ 

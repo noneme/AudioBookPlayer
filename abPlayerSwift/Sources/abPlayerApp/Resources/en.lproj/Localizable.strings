@@ -1,0 +1,93 @@
+"common.ok" = "OK";
+"common.cancel" = "Cancel";
+"common.more" = "More";
+"common.hide" = "Hide";
+"common.listened" = "listened";
+"error.unknown" = "Unknown error";
+"error.book_not_found" = "Book not found";
+
+"alert.error.title" = "Error";
+
+"menu.library" = "Library";
+"menu.search" = "Search";
+"menu.downloads" = "Downloads";
+"menu.settings" = "Settings";
+
+"library.title" = "Library";
+"library.section.title" = "Section";
+"library.section.all" = "All";
+"library.section.favorites" = "Favorites";
+"library.section.downloaded" = "Downloaded";
+"library.section.new" = "New";
+"library.section.started" = "Started";
+"library.section.finished" = "Finished";
+"library.search.placeholder" = "Search in library";
+"library.download.help" = "Download book";
+"library.added_prefix" = "added";
+"library.favorite.add" = "Add to favorites";
+"library.favorite.remove" = "Remove from favorites";
+"library.delete" = "Delete book";
+"library.downloaded" = "Downloaded";
+"library.download" = "Download";
+
+"bookmate.login_required_download" = "Log in to Bookmake to download";
+
+"search.title" = "Search";
+"search.placeholder" = "Start typing (min 3 chars)";
+"search.find" = "Find";
+"search.empty" = "No results yet. Enter a query and choose sources.";
+"search.sources" = "Sources";
+"search.licensed" = "licensed";
+"search.add" = "Add";
+
+"downloads.title" = "Downloads";
+"downloads.empty" = "No active downloads";
+"downloads.delete" = "Delete";
+"downloads.cancel" = "Cancel";
+"download.status.waiting" = "waiting";
+"download.status.preparing" = "preparing";
+"download.status.downloading" = "downloading";
+"download.status.finishing" = "finishing";
+"download.status.finished" = "finished";
+"download.status.terminating" = "terminating";
+"download.status.terminated" = "terminated";
+
+"player.title" = "Player";
+"player.not_selected" = "Book is not selected";
+"player.back_to_library" = "Back to Library";
+"player.no_downloaded_audio" = "No downloaded audio files found";
+"player.rewind_15" = "-15 sec";
+"player.previous" = "Previous";
+"player.play" = "Play";
+"player.pause" = "Pause";
+"player.next" = "Next";
+"player.forward_15" = "+15 sec";
+"player.chapter" = "Chapter";
+"player.playing" = "Playing";
+"player.paused" = "Paused";
+
+"settings.theme.title" = "Theme";
+"settings.theme.system" = "System";
+"settings.theme.light" = "Light";
+"settings.theme.dark" = "Dark";
+"settings.language.title" = "Language";
+"settings.language.system" = "System";
+"settings.language.ru" = "Russian";
+"settings.language.en" = "English";
+"settings.download_destination.title" = "Download destination";
+"settings.download_destination.select" = "Select folder";
+"settings.download_destination.open" = "Open folder";
+"settings.download_destination.not_selected" = "Not selected";
+"settings.library_state.title" = "Library state";
+"settings.library_state.export" = "Export state";
+"settings.library_state.import" = "Import state";
+"settings.library_state.description" = "Export/import contains Library and Downloads state.";
+"settings.bookmate_auth.title" = "Bookmate authorization";
+"settings.bookmate_auth.login" = "Log in to Bookmake";
+"settings.bookmate_auth.logout" = "Log out of Bookmake";
+"settings.bookmate_auth.description" = "Authorization is completed inside app. Logging out keeps downloaded Bookmate books in Library and disables downloading for not-yet-downloaded Bookmate books.";
+"settings.oauth.title" = "Yandex Authorization";
+"settings.oauth.missing_token" = "OAuth redirect received without access_token";
+
+"licensed.title" = "Licensed Sources";
+"licensed.description" = "Bookmate auth flow and token storage are implemented in Stage 2 loader layer.";

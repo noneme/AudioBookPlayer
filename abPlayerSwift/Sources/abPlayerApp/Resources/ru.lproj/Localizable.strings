@@ -1,0 +1,93 @@
+"common.ok" = "ОК";
+"common.cancel" = "Отмена";
+"common.more" = "Подробнее";
+"common.hide" = "Скрыть";
+"common.listened" = "прослушано";
+"error.unknown" = "Неизвестная ошибка";
+"error.book_not_found" = "Книга не найдена";
+
+"alert.error.title" = "Ошибка";
+
+"menu.library" = "Библиотека";
+"menu.search" = "Поиск";
+"menu.downloads" = "Загрузки";
+"menu.settings" = "Настройки";
+
+"library.title" = "Библиотека";
+"library.section.title" = "Раздел";
+"library.section.all" = "Все";
+"library.section.favorites" = "Избранное";
+"library.section.downloaded" = "Загруженные";
+"library.section.new" = "Новые";
+"library.section.started" = "Начатые";
+"library.section.finished" = "Завершенные";
+"library.search.placeholder" = "Поиск в библиотеке";
+"library.download.help" = "Скачать книгу";
+"library.added_prefix" = "добавлена";
+"library.favorite.add" = "Добавить в избранное";
+"library.favorite.remove" = "Убрать из избранного";
+"library.delete" = "Удалить книгу";
+"library.downloaded" = "Загружено";
+"library.download" = "Скачать";
+
+"bookmate.login_required_download" = "Войдите в Bookmake, чтобы скачать";
+
+"search.title" = "Поиск";
+"search.placeholder" = "Начните ввод (минимум 3 символа)";
+"search.find" = "Найти";
+"search.empty" = "Пока нет результатов. Введите запрос и выберите источники.";
+"search.sources" = "Источники";
+"search.licensed" = "лицензия";
+"search.add" = "Добавить";
+
+"downloads.title" = "Загрузки";
+"downloads.empty" = "Нет активных загрузок";
+"downloads.delete" = "Удалить";
+"downloads.cancel" = "Отменить";
+"download.status.waiting" = "ожидание";
+"download.status.preparing" = "подготовка";
+"download.status.downloading" = "загрузка";
+"download.status.finishing" = "завершение";
+"download.status.finished" = "завершено";
+"download.status.terminating" = "остановка";
+"download.status.terminated" = "остановлено";
+
+"player.title" = "Плеер";
+"player.not_selected" = "Книга не выбрана";
+"player.back_to_library" = "Назад в библиотеку";
+"player.no_downloaded_audio" = "Загруженные аудиофайлы не найдены";
+"player.rewind_15" = "-15 сек";
+"player.previous" = "Предыдущий";
+"player.play" = "Воспроизвести";
+"player.pause" = "Пауза";
+"player.next" = "Следующий";
+"player.forward_15" = "+15 сек";
+"player.chapter" = "Глава";
+"player.playing" = "Воспроизведение";
+"player.paused" = "Пауза";
+
+"settings.theme.title" = "Тема";
+"settings.theme.system" = "Системная";
+"settings.theme.light" = "Светлая";
+"settings.theme.dark" = "Темная";
+"settings.language.title" = "Язык";
+"settings.language.system" = "Системный";
+"settings.language.ru" = "Русский";
+"settings.language.en" = "English";
+"settings.download_destination.title" = "Папка загрузки";
+"settings.download_destination.select" = "Выбрать папку";
+"settings.download_destination.open" = "Открыть папку";
+"settings.download_destination.not_selected" = "Не выбрано";
+"settings.library_state.title" = "Состояние библиотеки";
+"settings.library_state.export" = "Экспорт состояния";
+"settings.library_state.import" = "Импорт состояния";
+"settings.library_state.description" = "Экспорт/импорт включает состояние Библиотеки и Загрузок.";
+"settings.bookmate_auth.title" = "Авторизация Bookmate";
+"settings.bookmate_auth.login" = "Войти в Bookmake";
+"settings.bookmate_auth.logout" = "Выйти из Bookmake";
+"settings.bookmate_auth.description" = "Авторизация выполняется внутри приложения. Выход сохраняет загруженные книги Bookmate в Библиотеке и отключает скачивание для еще не загруженных книг Bookmate.";
+"settings.oauth.title" = "Авторизация Яндекс";
+"settings.oauth.missing_token" = "OAuth-редирект получен без access_token";
+
+"licensed.title" = "Лицензионные источники";
+"licensed.description" = "Авторизация Bookmate и сохранение токена реализованы в слое загрузчика Stage 2.";
